@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Mukta', sans-serif;
+    color: white;
+}
+
+.principal{
+    width: 100%;
+    height: 100vh;
+}
+
+/*==================================*/
+
+.informacion_contacto{
+    background-color: rgb(144, 224, 239);
+    padding: 5px;
+}
+
+.informacion_contacto ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.informacion_contacto ul li{
+    text-align: center;
+    font-size: 1.5em;
+    color: grey;
+}
+
+
+/*==================================*/
+
+.portada {
+    display: flex;
+    background-color: rgb(3, 4, 94);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.foto-portada {
+    border-radius: 25%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 10px blueviolet solid;
+}
+
+.texto-portada {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+.texto-portada > * {
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.texto-portada h1 {
+    font-size: 5em;
+    text-decoration: underline;
+}
+
+.texto-portada h3 {
+    font-size: 3em;
+}
+
+.texto-portada p {
+    font-size: 2em;
+}
+
+/*===========================================*/
+
+.informacion {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(3, 4, 94);
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    border-right: 2px blueviolet solid;
+}
+
+.puntos{
+    display: flex;
+}
+
+.informacion h2 {
+    background-color: rgb(0, 180, 216);
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color:black;
+}
+
+.informacion p {
+    font-size: 2em;
+    text-align: center;
+    margin: auto 15px;
+}
+
+.informacion img {
+    width: 75%;
+}
+
+/*=========================================*/
+
+.resaltado{
+    color:blueviolet;
+}
